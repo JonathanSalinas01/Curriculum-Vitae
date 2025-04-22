@@ -13,6 +13,9 @@
     padding: 3px;
 }
 
+.color{
+    color: #fc5c5c;
+}
 
 .resumen{
     width: 80%; 
@@ -80,8 +83,14 @@
     
 
 .listaHabilidades li{
-    width: 100%;        /* que ocupe todo el ancho del contenedor padre */
-    padding: 8px 12px;  /* opcional: para darle algo de espacio interno */
+    width: 100%;        
     box-sizing: border-box;
 }
-
+.itec{
+    padding-right: 15px;
+    margin-left: 15px;
+}
+.carrer{
+    padding-right: 15px;
+    margin-left: 15px;
+}
