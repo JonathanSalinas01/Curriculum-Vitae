@@ -1,0 +1,87 @@
+.header{
+    text-align: center;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin-left: 3em;
+    padding: 3px;
+}
+
+
+.resumen{
+    width: 80%; 
+}
+
+.resumen p{
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.article{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+} 
+
+
+.contenido{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2px;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descripcion{
+    margin-top: 0;
+}
+
+.nombre h3{
+    margin-bottom: 3px;
+}
+
+.nombre h6{
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.fecha h3{
+    margin-bottom: 3px;
+}
+
+.fecha h6{
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.listaHabilidades {
+        list-style: none;
+        width: 100%;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        margin-right: 90rem;
+    }
+    
+
+.listaHabilidades li{
+    width: 100%;        /* que ocupe todo el ancho del contenedor padre */
+    padding: 8px 12px;  /* opcional: para darle algo de espacio interno */
+    box-sizing: border-box;
+}
+
