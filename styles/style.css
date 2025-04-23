@@ -1,5 +1,13 @@
 .header{
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    align-items: start;
 }
 
 .lista{
@@ -48,6 +56,14 @@
 
 }
 
+.uno{
+    margin-bottom: -25px;
+}
+
+.dos{
+    margin-top: 0;
+}
+
 .descripcion{
     margin-top: 0;
 }
@@ -87,8 +103,8 @@
     box-sizing: border-box;
 }
 .itec{
-    padding-right: 15px;
-    margin-left: 15px;
+    padding-right: 5px;
+    margin-left: 5px;
 }
 .carrer{
     padding-right: 15px;
